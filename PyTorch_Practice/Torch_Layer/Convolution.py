@@ -1,3 +1,7 @@
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+
 nn.Conv2d(in_channels=1, out_channels=20, kernel_size=5, stride=1)
 '''in_channels: 받게 될 channel의 갯수
 out_channels: 보내고 싶은 channel의 갯수
